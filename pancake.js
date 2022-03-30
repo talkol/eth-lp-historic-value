@@ -17,6 +17,7 @@ const PancakeLPAbi = [{"inputs":[],"stateMutability":"nonpayable","type":"constr
 const LPTokens = {
   BSCDEFI_BNB:  '0x5b0a3b98c2f01741a11e57a9d0595b254e62f9f2',
   UCO_BUSD:   '0x9b94bba06a6a2a20a51e0eb62fa2eb962b917a57',
+  GENE_BUSD:  '0x5cc5af51e57b274dd0659add8e44d0ac03409160',
 }
 
 async function main() {
