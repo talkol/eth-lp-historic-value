@@ -86,8 +86,8 @@ async function getLPData(contract, stakingContract, address, block) {
   const token0BalanceNum = token0reserveNum.multipliedBy(lpshareNum);
   const token1BalanceNum = token1reserveNum.multipliedBy(lpshareNum);
   return [
-    lpbalanceInWalletNum.toFormat(6).replaceAll(',',''),
-    lpbalanceInStakingNum.toFormat(6).replaceAll(',',''),
+    lpbalanceInWalletNum.toFormat(12).replaceAll(',',''),
+    lpbalanceInStakingNum.toFormat(12).replaceAll(',',''),
     lptotalNum.toFormat(6).replaceAll(',',''),
     token0,
     token0BalanceNum.toFormat(6).replaceAll(',',''),
